@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  color: #515076;
+  font-family: "Montserrat", sans-serif;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
