@@ -68,6 +68,8 @@ body {
   padding: 25px;
   max-width: 340px;
   background-color: #f7f7fa;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card__features {
@@ -75,6 +77,9 @@ body {
   padding-left: 0;
   list-style-position: inside;
   list-style-type: circle;
+   display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 .product-card__picture {
@@ -96,8 +101,4 @@ body {
   display: flex;
   justify-content: space-between;
   font-size: 20px;
-}
-
-.product-card__features li:not(:last-child) {
-  margin-bottom: 5px;
 }
