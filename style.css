@@ -103,3 +103,33 @@ body {
   font-size: 20px;
   margin-top: auto;
 }
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.buttons button {
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid #515076;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.buttons button:hover {
+  background-color: #515076;
+  color: #fff;
+}
+
+.btn--active {
+  background-color: #ac4cd2;
+  color: #fff;
+  border-color: #ac4cd2;
+}
