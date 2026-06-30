@@ -1,18 +1,18 @@
 // Покраска первой карточки
 const firstProductCard = document.querySelector('.product-card');
-const btnFirstCard = document.querySelector('#btn-first-card');
+const firstCardBtn = document.querySelector('#btn-first-card');
 const lightPurpleColour = '#e8e8f0';
 
-btnFirstCard.addEventListener('click', () => {
+firstCardBtn.addEventListener('click', () => {
   firstProductCard.style.backgroundColor = lightPurpleColour;
 });
 
 // Перекрашивание всех карточек
 const allProductCards = document.querySelectorAll('.product-card');
-const btnAllCards = document.querySelector('#btn-all-cards');
+const allCardsBtn = document.querySelector('#btn-all-cards');
 const darkPurpleColour = '#515076';
 
-btnAllCards.addEventListener('click', () => {
+allCardsBtn.addEventListener('click', () => {
   allProductCards.forEach((card) => {
     card.style.backgroundColor = darkPurpleColour;
     card.style.color = '#fff';
@@ -20,9 +20,9 @@ btnAllCards.addEventListener('click', () => {
 });
 
 // Открытие Google
-const btnGoogle = document.querySelector('#btn-google');
+const googleBtn = document.querySelector('#btn-google');
 
-btnGoogle.addEventListener('click', function() {
+googleBtn.addEventListener('click', function() {
   const answer = confirm('Уверен?');
   
   if (answer === true) {
@@ -31,9 +31,9 @@ btnGoogle.addEventListener('click', function() {
 });
 
 // Консоль лог и alert
-const btnLog = document.querySelector('#btn-log');
+const logBtn = document.querySelector('#btn-log');
 
-btnLog.addEventListener('click', function() {
+logBtn.addEventListener('click', function() {
   alert('Сё чётка');
   console.log('Сё чётка');
 });
@@ -46,8 +46,8 @@ catalogTitle.addEventListener('mouseover', function() {
 });
 
 // Кнопка, меняет цвет 
-const btnToggle = document.querySelector('#btn-toggle');
+const toggleBtn = document.querySelector('#btn-toggle');
 
-btnToggle.addEventListener('click', function() {
-  btnToggle.classList.toggle('btn--active');
+toggleBtn.addEventListener('click', function() {
+  toggleBtn.classList.toggle('btn--active');
 });
